@@ -9,9 +9,9 @@
     <ion-content>
       <br>
       <div id="container">
-        <strong><a href="/cliente">Ir a Clientes</a></strong>
+        <strong><a href="/carro">Ir a Carro</a></strong>
         <br>
-        <strong><a href="/producto">Ir a productos</a></strong>
+        <strong><a href="/categoria">Ir a productos</a></strong>
 
       </div>
 
