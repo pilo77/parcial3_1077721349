@@ -5,7 +5,10 @@ import ClientePage from '../views/ClientePage.vue'
 import LoginPage from '../views/LoginPage.vue'
 import DasboardPage from '../views/DasboardPage.vue'
 import ProductoPage from '@/views/ProductoPage.vue';
-import ProvedorPage from '@/views/ProvedorPage.vue';
+import CategoriaPage from '@/views/CategoriaPage.vue';
+import CarroPage from '@/views/CarroPage.vue';
+
+
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -13,9 +16,9 @@ const routes: Array<RouteRecordRaw> = [
     redirect: '/provedor'
   },
   {
-    path: '/provedor',
-    name: 'Provedor',
-    component: ProvedorPage
+    path: '/categoria',
+    name: 'Categoria',
+    component: CategoriaPage
   },
   {
     path: '/home',
@@ -40,6 +43,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/producto',
     name: 'Producto',
     component: ProductoPage
+  },
+  {
+    path: '/carro',
+    name: 'Carro',
+    component: CarroPage
   }
 ]
 
