@@ -11,7 +11,7 @@
       <div id="container">
         <strong><a href="/carro">Ir a Carro</a></strong>
         <br>
-        <strong><a href="/categoria">Ir a productos</a></strong>
+        <strong><a href="/categoria">Ir a Categoria</a></strong>
 
       </div>
 

@@ -3,7 +3,7 @@
     <ion-page>
       <ion-header :translucent="true">
         <ion-toolbar>
-          <ion-title>Carrito de compra</ion-title>
+          <ion-title>carro</ion-title>
         </ion-toolbar>
       </ion-header>
       <ion-content>
