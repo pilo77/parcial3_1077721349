@@ -68,7 +68,7 @@ async function createRecord() {
   const data = {
    
     nombre: nombre.value,
-    metodoPago: descripcion.value
+    descripcion: descripcion.value
   };
 
   try {
