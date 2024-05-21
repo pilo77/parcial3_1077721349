@@ -38,7 +38,7 @@ import Swal from 'sweetalert2';
 
 
 // Rutas de la API
-const baseURL = 'http://localhost:9000/shopping-car/api/cliente';
+const baseURL = 'http://localhost:8080/shopping-car/api/categoria';
 
 // Métodos para interactuar con la API
 // Obtener todos los registros
@@ -66,11 +66,9 @@ async function fetchRecordById(id) {
 // Crear registro
 async function createRecord() {
   const data = {
-    tipoDocumento: tipoDocumento.value,
-    documento: documento.value,
+   
     nombre: nombre.value,
-    metodoPago: metodoPago.value,
-    direccion: direccion.value
+    metodoPago: descripcion.value
   };
 
   try {
