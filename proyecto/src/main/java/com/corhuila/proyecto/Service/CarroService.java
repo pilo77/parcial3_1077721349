@@ -31,8 +31,8 @@ public class CarroService implements ICarroService {
             carroUpdate.setModelo(carro.getModelo());
             carroUpdate.setPlaca(carro.getPlaca());
             carroUpdate.setColor(carro.getColor());
-            carroUpdate.setCategoriaId(carro.getCategoriaId());
-            carroUpdate.setUsuarioId(carro.getUsuarioId());
+            carroUpdate.setCategoria_id(carro.getCategoria_id());
+            carroUpdate.setUsuario_id(carro.getUsuario_id());
             repository.save(carroUpdate);
         }else{
             throw new RuntimeException("No existe el registro para actualizar");

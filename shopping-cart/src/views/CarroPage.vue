@@ -9,9 +9,12 @@
       <ion-content>
         <div id="login-container">
           <div id="login-form">
-            <InputComponent id="codigo" name="codigo" label="codigo: " />
-            <InputComponent id="nombre" name="nombre" label="Nombre: " />
-            <InputComponent id="direccion" name="direccion" label="Dirección: " />
+            <InputComponent id="marca" name="marca" label="marca: " />
+            <InputComponent id="modelo" name="modelo" label="modelo: " />
+            <InputComponent id="placa" name="placa" label="placa: " />
+            <InputComponent id="color" name="color" label="color: " />
+            <InputComponent id="categoria_id" name="categoria_id" label="categoria_id: " />
+            <InputComponent id="usuario_id" name="usuario_id" label="usuario_id: " />
           </div>
           <div>
             <!-- icon -->
@@ -65,9 +68,12 @@
   // Crear registro
   async function createRecord() {
     const data = {
-      codigo: codigo.value,
-      nombre: nombre.value,
-      direccion: direccion.value
+      marca: marca.value,
+      modelo: modelo.value,
+      placa: placa.value,
+      color: color.value,
+      categoria_id: categoria_id.value,
+      usuario: usuario_id.value
     };
   
     try {
