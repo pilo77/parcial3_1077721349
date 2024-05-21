@@ -13,7 +13,7 @@ import CarroPage from '@/views/CarroPage.vue';
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: '/categoria'
+    redirect: '/dashboard'
   },
   {
     path: '/categoria',

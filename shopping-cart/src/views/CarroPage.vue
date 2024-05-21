@@ -40,7 +40,7 @@
   
   
   // Rutas de la API
-  const baseURL = 'http://localhost:8080/shopping-car/api/provedor';
+  const baseURL = 'http://localhost:8080/shopping-car/api/carro';
   
   // Métodos para interactuar con la API
   // Obtener todos los registros
